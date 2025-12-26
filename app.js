@@ -10,8 +10,8 @@ function calculateROI() {
 
     const roi = ((revenue - investment) / investment) * 100;
     const message = roi >= 0
-    ? `ROI: ${roi.toFixed(2)}%`
-    : `ROI: ${roi.toFixed(2)}% — Caution! You're running at a loss.`;
+    ? `ROI: <span class='bonus'> ${roi.toFixed(2)}% </span>`
+    : `ROI: <span class='error'> ${roi.toFixed(2)}% </span> — Caution! You're running at a loss. `;
 
     resultBox.innerHTML = message;
 }
