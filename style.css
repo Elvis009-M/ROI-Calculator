@@ -51,15 +51,16 @@ main {
     margin: auto;
     padding: 30px 40px;
     border-radius: 10px;
-    background: lightgray;
+    background: gray;
     width: 100%;
     max-width: 400px;
+    color: white;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
 }
 label {
     display: block;
@@ -159,6 +160,6 @@ footer .pair .footerbutton:hover {
 /* -------        MEDIA QUERIES FOR DEVICES WITH SMALL WIDTH   --------- */
 @media (max-width: 768px) {
     .container {
-        max-width: 280px;
+        max-width: 250px;
     }
 }
